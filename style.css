@@ -1,0 +1,133 @@
+/* 2. FOLHA DE ESTILOS (CSS) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Define a cor de fundo escura e a fonte principal do site */
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #060b11;
+    color: #e2e8f0;
+    line-height: 1.6;
+    padding-bottom: 40px;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    padding: 30px 0;
+}
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00f0ff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+    margin-bottom: 5px;
+    text-align: center;
+}
+.subtitle {
+    font-size: 1.4rem;
+    color: #94a3b8;
+    letter-spacing: 1px;
+}
+ /* IMAGEM PRINCIPAL */
+.banner-container {
+    width: 100%;
+    margin: 20px 0 40px 0;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid #00f0ff;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+}    
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* CONTEÚDO DE TEXTO */
+.content-section {
+    margin-bottom: 40px;
+} 
+p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: #cbd5e1;
+    text-align: justify;
+}
+
+        /* FORMULÁRIO BORDAS BRILHANTES (IGUAL À IMAGEM) */
+.form-container {
+    border: 2px solid #00f0ff;
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.15);
+    border-radius: 8px;
+    padding: 35px;
+    background-color: #09111a;
+}
+        .form-group {
+            margin-bottom: 25px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+            color: #00f0ff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 14px;
+            background-color: #050a10;
+            border: 1px solid #1e293b;
+            border-bottom: 2px solid #00f0ff;
+            border-radius: 4px;
+            color: #fff;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+        input:focus {
+            outline: none;
+            border-color: #00f0ff;
+            background-color: #0b1521;
+            box-shadow: 0 0 10px rgba(0, 240, 255, 0.4);
+        }
+
+        /* BOTÃO */
+        button {
+            width: 100%;
+            background-color: transparent;
+            color: #00f0ff;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 900;
+            padding: 16px;
+            border: 2px solid #00f0ff;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #00f0ff;
+            color: #060b11;
+            box-shadow: 0 0 20px rgba(0, 240, 255, 0.6);
+        }
+
+        /* RODAPÉ */
+        footer {
+            text-align: center;
+            padding-top: 40px;
+            font-size: 1rem;
+            color: #64748b;
+        }
